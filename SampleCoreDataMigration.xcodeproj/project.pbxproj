@@ -14,6 +14,14 @@
 		59C7A57721EF0119004FB378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C7A57521EF0119004FB378 /* LaunchScreen.storyboard */; };
 		59C7A58221EF0119004FB378 /* SampleCoreDataMigrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A58121EF0119004FB378 /* SampleCoreDataMigrationTests.swift */; };
 		59C7A58D21EF0119004FB378 /* SampleCoreDataMigrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A58C21EF0119004FB378 /* SampleCoreDataMigrationUITests.swift */; };
+		59C7A5A121EF01C9004FB378 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A59E21EF01C9004FB378 /* Model.xcdatamodeld */; };
+		59C7A5A721EF02E9004FB378 /* MigrationPolicyV1toV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5A621EF02E9004FB378 /* MigrationPolicyV1toV2.swift */; };
+		59C7A5A921EF04D1004FB378 /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5A821EF04D1004FB378 /* CoredataManager.swift */; };
+		59C7A5AE21EF08AF004FB378 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5AA21EF08AF004FB378 /* Car+CoreDataClass.swift */; };
+		59C7A5AF21EF08AF004FB378 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5AB21EF08AF004FB378 /* Car+CoreDataProperties.swift */; };
+		59C7A5B021EF08AF004FB378 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5AC21EF08AF004FB378 /* Person+CoreDataClass.swift */; };
+		59C7A5B121EF08AF004FB378 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5AD21EF08AF004FB378 /* Person+CoreDataProperties.swift */; };
+		59C7A5B321EF0973004FB378 /* ModelV1toV2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 59C7A5B221EF0973004FB378 /* ModelV1toV2.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,15 @@
 		59C7A58821EF0119004FB378 /* SampleCoreDataMigrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCoreDataMigrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C7A58C21EF0119004FB378 /* SampleCoreDataMigrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCoreDataMigrationUITests.swift; sourceTree = "<group>"; };
 		59C7A58E21EF0119004FB378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C7A59F21EF01C9004FB378 /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		59C7A5A021EF01C9004FB378 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		59C7A5A621EF02E9004FB378 /* MigrationPolicyV1toV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationPolicyV1toV2.swift; sourceTree = "<group>"; };
+		59C7A5A821EF04D1004FB378 /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		59C7A5AA21EF08AF004FB378 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		59C7A5AB21EF08AF004FB378 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		59C7A5AC21EF08AF004FB378 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		59C7A5AD21EF08AF004FB378 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		59C7A5B221EF0973004FB378 /* ModelV1toV2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = ModelV1toV2.xcmappingmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +114,14 @@
 		59C7A56B21EF0118004FB378 /* SampleCoreDataMigration */ = {
 			isa = PBXGroup;
 			children = (
+				59C7A5AA21EF08AF004FB378 /* Car+CoreDataClass.swift */,
+				59C7A5AB21EF08AF004FB378 /* Car+CoreDataProperties.swift */,
+				59C7A5AC21EF08AF004FB378 /* Person+CoreDataClass.swift */,
+				59C7A5AD21EF08AF004FB378 /* Person+CoreDataProperties.swift */,
+				59C7A59E21EF01C9004FB378 /* Model.xcdatamodeld */,
+				59C7A5B221EF0973004FB378 /* ModelV1toV2.xcmappingmodel */,
+				59C7A5A621EF02E9004FB378 /* MigrationPolicyV1toV2.swift */,
+				59C7A5A821EF04D1004FB378 /* CoredataManager.swift */,
 				59C7A56C21EF0118004FB378 /* AppDelegate.swift */,
 				59C7A56E21EF0118004FB378 /* ViewController.swift */,
 				59C7A57021EF0118004FB378 /* Main.storyboard */,
@@ -256,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C7A5AF21EF08AF004FB378 /* Car+CoreDataProperties.swift in Sources */,
+				59C7A5A721EF02E9004FB378 /* MigrationPolicyV1toV2.swift in Sources */,
 				59C7A56F21EF0118004FB378 /* ViewController.swift in Sources */,
 				59C7A56D21EF0118004FB378 /* AppDelegate.swift in Sources */,
+				59C7A5AE21EF08AF004FB378 /* Car+CoreDataClass.swift in Sources */,
+				59C7A5B021EF08AF004FB378 /* Person+CoreDataClass.swift in Sources */,
+				59C7A5B121EF08AF004FB378 /* Person+CoreDataProperties.swift in Sources */,
+				59C7A5A121EF01C9004FB378 /* Model.xcdatamodeld in Sources */,
+				59C7A5A921EF04D1004FB378 /* CoredataManager.swift in Sources */,
+				59C7A5B321EF0973004FB378 /* ModelV1toV2.xcmappingmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +613,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59C7A59E21EF01C9004FB378 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59C7A59F21EF01C9004FB378 /* Model 2.xcdatamodel */,
+				59C7A5A021EF01C9004FB378 /* Model.xcdatamodel */,
+			);
+			currentVersion = 59C7A59F21EF01C9004FB378 /* Model 2.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 59C7A56121EF0118004FB378 /* Project object */;
 }
